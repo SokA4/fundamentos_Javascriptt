@@ -15,7 +15,7 @@ function mostrarDiasdelmes() {
   alert("Dias del mes " + diasDelMes);
 }
 
-function mostrarNumeroDecimal() {
+function mostrarCuartapartede10() {
   alert("Cuarta parte de 10: " + cuartaPartede10);
 }
 
