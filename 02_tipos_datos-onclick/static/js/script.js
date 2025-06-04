@@ -1,14 +1,14 @@
-let diasDelMes = 31;
+//Declaración de variables
+let diasDelMes = 31; //tipo numerico
 let cuartaPartede10 = 2.5;
-let Saludo = "Que onda!!";
-let valorBooleano = true;
-let arregloNumeros = [1, 2, 3, 4];
-let objetoPersona = { nombre: "Ana", edad: 30 };
+let saludo = "Que onda!!";
+let esEstudiante = true;
+let cuentaRegresiva = [3, 2, 1];
+let objetoUsuario = { nombre: "soka", correo: "luisecheverria@liceovvh.cl", edad: 30 };
 let valorIndefinido;
 let valorNulo = null;
-const mes = "Junio";
+const año = "2025";
 let arregloColores = ["verde", " morado", " rojo"];
-let objetoUsuario = { nombre: "soka", correo: "luisecheverria@liceovvh.cl", edad: 30 };
 
 // Funciones para mostrar cada valor con alert()
 function mostrarDiasdelmes() {
@@ -19,38 +19,34 @@ function mostrarCuartapartede10() {
   alert("Cuarta parte de 10: " + cuartaPartede10);
 }
 
-function mostrarCadenaTexto() {
+function mostrarSaludo() {
   alert("Saludo: " + Saludo);
 }
 
-function mostrarBooleano() {
-  alert("Valor booleano: " + valorBooleano);
+function mostrarEsEstudiante() {
+  alert("Es Estudiante?: " + valorBooleano);
 }
 
-function mostrarArreglo() {
-  alert("Arreglo de números: " + arregloNumeros);
+function mostrarCuentaRegresiva() {
+  alert("Cuenta Regresiva: " + arregloNumeros);
 }
 
 function mostrarObjeto() {
-  alert("Objeto persona: " + JSON.stringify(objetoPersona));
+  alert("Usuario: " + JSON.stringify(objetoUsuario));
 }
 
-function mostrarIndefinido() {
-  alert("Valor indefinido: " + valorIndefinido);
+function mostrarSexo() {
+  alert("Sexo: " + valorIndefinido);
 }
 
-function mostrarNulo() {
-  alert("Valor nulo: " + valorNulo);
+function mostrarVoto() {
+  alert("Voto: " + valorNulo);
 }
 
 function mostrarConstante() {
-  alert("Constante mes: " + mes);
+  alert("Año: " + año);
 }
 
 function mostrarColores() {
-  alert("Arreglo de colores: " + arregloColores);
-}
-
-function mostrarUsuario() {
-  alert("Objeto usuario: " + JSON.stringify(objetoUsuario));
+  alert("Colores: " + arregloColores);
 }
