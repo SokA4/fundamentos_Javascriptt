@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(181, 255, 108);
+}
+
+.filas {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.filas p {
+    margin: 50px;
+    padding: 10px;
+    color: black;
+    background-color: aqua;
+    font-size: 50px;
+}
+
+.filas button {
+    padding: 100px;
+    margin: 50px;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 0px;
+}
