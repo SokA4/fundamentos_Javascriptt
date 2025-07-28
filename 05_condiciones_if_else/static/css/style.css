@@ -2,12 +2,12 @@ body {
     background-color: rgb(181, 255, 108);
 }
 
-.filas {
+.row {
     display: flex;
     justify-content: flex-start;
 }
 
-.filas p {
+.row p {
     margin: 50px;
     padding: 10px;
     color: black;
@@ -15,7 +15,7 @@ body {
     font-size: 50px;
 }
 
-.filas button {
+.row button {
     padding: 100px;
     margin: 50px;
     background-color: aquamarine;
