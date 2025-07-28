@@ -158,8 +158,6 @@ function licenciaEdad() {
   }
 }
 
-}
-
 function encontrarPalabraLarga() {
   let pal1 = prompt("Ingerse primera palabra");
   let pal2 = prompt("Ingrese segunda palabra");
@@ -195,6 +193,11 @@ function validarNumero() {
 
 function ingresarHora() {
   let = horaActual = parseInt(prompt("Ingresar hora: "))
-  if (horaActual < 12)
-
+  if (horaActual < 12){
+    alert("Buenos dias")
+  } else if(horaActual >= 12 && horaActual <= 18){
+    alert("Buenas tardes")
+  } else if (horaActual >=23){
+    alert("Buenas noches")
+  }
 }
