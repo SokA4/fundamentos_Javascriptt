@@ -157,3 +157,44 @@ function licenciaEdad() {
     }
   }
 }
+
+}
+
+function encontrarPalabraLarga() {
+  let pal1 = prompt("Ingerse primera palabra");
+  let pal2 = prompt("Ingrese segunda palabra");
+  if (pal1 == "" && pal2 == "") {
+    alert("Ingerse algun valor para trabajar...")
+  } else if (pal1.length < pal2.length) {
+    alert(`la balabra más largas es ${pal2} con ${pal2.length} carácteres`);
+  } else if (pal1.length == pal2.length) {
+    alert(`Las palabras ${pal2} y ${pal1} tienen mismo largo con :\n ${pal1.length} caracteres`)
+  } else {
+    alert(`la palabra más larga es ${pal1} con ${pal1.length} carácteres`)
+  }
+}
+
+function validarCorreo() {
+  let email = prompt("por favor, ingresa su correo: ");
+  if (email.includes("@")) {
+    alert()
+  }
+}
+
+function validarNumero() {
+  let numero = parseInt(prompt("Ingresar numero: "));
+  if (numero > 0) {
+    alert(`el ${numero} es positivo`);
+  } else if (numero === 0) {
+    alert(`el ${numero} es invalido`);
+  }
+  else {
+    alert(`el ${numero} es negativo`);
+  }
+}
+
+function ingresarHora() {
+  let = horaActual = parseInt(prompt("Ingresar hora: "))
+  if (horaActual < 12)
+
+}
