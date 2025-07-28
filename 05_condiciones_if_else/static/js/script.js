@@ -146,13 +146,14 @@ function precio() { // Creación de la función
 
 function licenciaEdad() {
   let edad = parseInt(prompt("Ingrese su Edad"));
-  if(edad >18 && edad <100){
-   let licencia = prompt("indica si tiene licencia Si/No");
-   if (edad >= 18 && licencia == "Si"){
-    alert("Usted puede conducir!")
-   } else if (edad < 18 && edad > 0 && licencia == "No") {
-    alert("Usted no puede conducir!")
-   }else{
-    alert("Ingrese valores válidos!");
-   }
+  if (edad > 18 && edad < 100) {
+    let licencia = prompt("indica si tiene licencia Si/No");
+    if (edad >= 18 && licencia == "Si") {
+      alert("Usted puede conducir!")
+    } else if (edad < 18 && edad > 0 && licencia == "No") {
+      alert("Usted no puede conducir!")
+    } else {
+      alert("Ingrese valores válidos!");
+    }
+  }
 }
